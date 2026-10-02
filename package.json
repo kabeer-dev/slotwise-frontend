@@ -1,0 +1,31 @@
+{
+  "name": "slotwise-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Slotwise web app — Next.js patient portal with an AI booking assistant",
+  "scripts": {
+    "dev": "next dev --port 3000",
+    "build": "next build",
+    "start": "next start --port 3000",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fontsource-variable/atkinson-hyperlegible-next": "^5.3.0",
+    "@tanstack/react-query": "^5.104.0",
+    "clsx": "^2.1.1",
+    "lucide-react": "^1.49.0",
+    "next": "^16.3.8",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "socket.io-client": "^4.8.4",
+    "sonner": "^2.0.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^22.20.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "~5.9.3"
+  }
+}
